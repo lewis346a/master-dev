@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "G:\\beidou\\BD-master\\BD-master\\ui\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-xlarge-v4\\values-xlarge-v4.xml",
+            "map": [
+                {
+                    "source": "G:\\beidou\\BD-master\\BD-master\\ui\\build\\intermediates\\bundles\\debug\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,108",
+                        "endColumns": "52,53",
+                        "endOffsets": "103,157"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "G:\\beidou\\BD-master\\BD-master\\ui\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-xlarge-v4\\values-xlarge-v4.xml",
+            "map": [
+                {
+                    "source": "G:\\beidou\\BD-master\\BD-master\\ui\\build\\intermediates\\bundles\\debug\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,108",
+                        "endColumns": "52,53",
+                        "endOffsets": "103,157"
+                    }
+                }
+            ]
+        }
+    ]
+}

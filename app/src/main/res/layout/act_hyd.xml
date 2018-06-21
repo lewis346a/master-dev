@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/bg_f8"
+    android:layout_height="match_parent">
+    <include layout="@layout/layout_head"/>
+    <LinearLayout
+        android:paddingLeft="@dimen/dp30"
+        android:background="@color/com_blue"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="190px">
+        <TextView
+            android:textStyle="bold"
+            android:textSize="@dimen/dp50"
+            android:textColor="@color/white"
+            android:text="122"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:paddingLeft="@dimen/dp30"
+        android:gravity="center_vertical"
+
+        android:textSize="@dimen/dp24"
+        android:textColor="@color/black66"
+        android:text="增加活跃度"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp50" />
+    <LinearLayout
+        android:background="@color/white"
+        android:id="@+id/ll_jhhy"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/dp30"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp120">
+        <ImageView
+            android:src="@mipmap/logo"
+            android:layout_width="@dimen/dp80"
+            android:layout_height="@dimen/dp80" />
+
+        <TextView
+            android:layout_marginLeft="@dimen/dp20"
+            android:textColor="@color/black33"
+            android:textSize="@dimen/dp30"
+            android:text="激活好友"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <View
+
+        android:background="@color/black_ee"
+        android:layout_width="match_parent"
+        android:layout_height="2px"/>
+    <LinearLayout
+        android:background="@color/white"
+        android:id="@+id/ll_gw"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/dp30"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp120">
+        <ImageView
+            android:src="@mipmap/logo"
+            android:layout_width="@dimen/dp80"
+            android:layout_height="@dimen/dp80" />
+
+        <TextView
+            android:layout_marginLeft="@dimen/dp20"
+            android:textColor="@color/black33"
+            android:textSize="@dimen/dp30"
+            android:text="购物"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <View
+
+        android:background="@color/black_ee"
+        android:layout_width="match_parent"
+        android:layout_height="2px"/>
+    <LinearLayout
+        android:background="@color/white"
+        android:id="@+id/ll_sqft"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/dp30"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp120">
+        <ImageView
+            android:src="@mipmap/logo"
+            android:layout_width="@dimen/dp80"
+            android:layout_height="@dimen/dp80" />
+
+        <TextView
+            android:layout_marginLeft="@dimen/dp20"
+            android:textColor="@color/black33"
+            android:textSize="@dimen/dp30"
+            android:text="社区发帖"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <View
+
+        android:background="@color/black_ee"
+        android:layout_width="match_parent"
+        android:layout_height="2px"/>
+    <LinearLayout
+        android:background="@color/white"
+        android:id="@+id/ll_cwsh"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/dp30"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp120">
+        <ImageView
+            android:src="@mipmap/logo"
+            android:layout_width="@dimen/dp80"
+            android:layout_height="@dimen/dp80" />
+
+        <TextView
+            android:layout_marginLeft="@dimen/dp20"
+            android:textColor="@color/black33"
+            android:textSize="@dimen/dp30"
+            android:text="成为商户"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <View
+
+        android:background="@color/black_ee"
+        android:layout_width="match_parent"
+        android:layout_height="2px"/><LinearLayout
+        android:background="@color/white"
+        android:id="@+id/ll_cjbgx"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/dp30"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp120">
+        <ImageView
+            android:src="@mipmap/logo"
+            android:layout_width="@dimen/dp80"
+            android:layout_height="@dimen/dp80" />
+
+        <TextView
+            android:layout_marginLeft="@dimen/dp20"
+            android:textColor="@color/black33"
+            android:textSize="@dimen/dp30"
+            android:text="参加保管箱"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <View
+
+        android:background="@color/black_ee"
+        android:layout_width="match_parent"
+        android:layout_height="2px"/>
+</LinearLayout>

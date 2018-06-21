@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_marginLeft="@dimen/dp30"
+        android:layout_marginRight="@dimen/dp30"
+        android:paddingTop="@dimen/dp30"
+        android:paddingBottom="@dimen/dp30"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/black33"
+            android:text="每日登陆"
+            android:id="@+id/tv_name"
+            android:textSize="@dimen/dp30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+
+            android:layout_marginTop="@dimen/dp30"
+            android:textColor="@color/black66"
+            android:text="2018-5-20  18:00"
+            android:id="@+id/tv_time"
+            android:textSize="@dimen/dp24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:layout_marginRight="@dimen/dp30"
+        android:textSize="@dimen/dp30"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:textColor="@color/com_blue"
+        android:text="+1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
